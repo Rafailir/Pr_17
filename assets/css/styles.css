@@ -846,3 +846,44 @@ h4 {
     .modal p { font-size: 19.5px; }
     .modal-close { font-size: 36px; }
 }
+
+/* Text contrast */
+.nav .nav-light {
+    color: #592600;
+    background: #fff7db;
+}
+.nav .nav-light:hover {
+    color: #592600;
+    background: #ffe5a3;
+}
+.header-note,
+.section-title p,
+.product-price,
+.term-label,
+.fineprint,
+.about p,
+.footer p {
+    color: #f0dcc8;
+}
+.tab,
+.terms span {
+    color: #f0dcc8;
+    background: #2b190d;
+}
+.tab:hover,
+.terms span:hover {
+    background: #482814;
+}
+.tab.active,
+.tab.active:hover,
+.terms .selected,
+.terms .selected:hover {
+    color: #241207;
+    background: #ffad33;
+}
+.product-row.chosen {
+    background: #482814;
+}
+.product-row.chosen:hover {
+    background: #55301b;
+}
