@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BloodMine — главная</title>
   <meta name="description" content="Демонстрационный сайт BloodMine: знакомство с проектом, каталог привилегий, новости, правила и награды.">
   <meta name="keywords" content="minecraft, сервер, сервер майнкрафт, майнкрафт сервер, лучший сервер, донат, minecraft сервер">
@@ -22,13 +23,13 @@
       <div class="hero-copy"><span class="eyebrow">Твоя история начинается здесь</span><h1>Добро пожаловать<br>на наш уникальный<br><span>BloodMine!</span></h1>
       <p>Погрузись в захватывающие приключения, где каждый шаг открывает что-то новое. Собирай друзей, строй и исследуй мир вместе с нами.</p>
       <a class="orange hero-button" href="how-to-play.html">Начать играть <span>→</span></a></div>
-      <div class="hero-players"><img class="hero-back" src="assets/ImagesWeb/hero-secondary.webp" alt=""><img class="hero-front" src="assets/ImagesWeb/player.webp" alt=""></div>
+      <div class="hero-players"><img class="hero-back" src="assets/ImagesWeb/hero-secondary.webp" alt="hero-secondary.webp"><img class="hero-front" src="assets/ImagesWeb/player.webp" alt="player.webp"></div>
     </div>
     <div class="shop-section wrap" id="shop">
       <div class="section-title"><span class="pill">Донат-магазин</span><h2>Выбери категорию</h2><p>Добавь ярких красок в свое приключение</p></div>
       <div class="store">
         <div class="tabs"><div class="tab active" data-category="ranks" onclick="setCategory('ranks')">Привилегии</div><div class="tab" data-category="cases" onclick="setCategory('cases')">Кейсы</div><div class="tab" data-category="shards" onclick="setCategory('shards')">Осколки</div><div class="tab" data-category="other" onclick="setCategory('other')">Разное</div></div>
-        <div class="store-body"><div class="store-preview"><h4 id="preview-name">Маркиз</h4><img id="preview-image" src="assets/ImagesWeb/player.webp" alt=""></div>
+        <div class="store-body"><div class="store-preview"><h4 id="preview-name">Маркиз</h4><img id="preview-image" src="assets/ImagesWeb/player.webp" alt="player.webp"></div>
           <div class="product-column"><div class="column-heading">Выбрать товар</div><div id="product-list"></div></div>
           <div class="description-column"><div class="column-heading secondary">Описание товара</div><h4 id="product-name">Маркиз</h4><div id="product-description"></div><div class="term-label">Срок действия</div><div class="terms"><span class="selected" onclick="setTerm(this,'На месяц')">На месяц</span><span onclick="setTerm(this,'Навсегда')">Навсегда</span></div><button id="choose-product" class="orange" onclick="selectProduct()">Выбрать за 39 ₽</button><p class="fineprint">Посмотреть описание выбранного набора</p></div>
         </div>

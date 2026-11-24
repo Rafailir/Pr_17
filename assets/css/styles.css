@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    min-width: 1100px;
+
     color: #fff5e8;
     background: #1e1006;
     font-family: "Trebuchet MS", Arial, sans-serif;
@@ -810,4 +810,66 @@ h4 {
     width: 300px;
     max-height: 300px;
     object-fit: contain;
+}
+
+
+
+/* Mobile font sizes: 150% */
+@media (max-width: 768px) {
+    body { font-size: 21px; }
+    .logo { font-size: 69px; }
+    .logo span { font-size: 12px; }
+    .nav a { font-size: 18px; }
+    .header-note { font-size: 15px; }
+    .eyebrow { font-size: 15px; }
+    h2 { font-size: 48px; }
+    .hero h2 { font-size: 60px; }
+    .hero p { font-size: 19.5px; }
+    .orange { font-size: 19.5px; }
+    .pill { font-size: 15px; }
+    .section-title h2 { font-size: 45px; }
+    .section-title p { font-size: 16.5px; }
+    .tab { font-size: 19.5px; }
+    h4 { font-size: 25.5px; }
+    .store-preview h4 { font-size: 22.5px; }
+    .column-heading { font-size: 18px; }
+    .product-row { font-size: 18px; }
+    .product-price { font-size: 16.5px; }
+    .description-column h4 { font-size: 25.5px; }
+    .description-column ul { font-size: 18px; }
+    .term-label { font-size: 15px; }
+    .terms { font-size: 15px; }
+    .fineprint { font-size: 13.5px; }
+    .news-copy h4 { font-size: 27px; }
+    .news-copy p { font-size: 18px; }
+    .news-copy a,.text-link { font-size: 18px; }
+    .about p { font-size: 16.5px; }
+    .about a { font-size: 16.5px; }
+    .small-logo { font-size: 48px; }
+    .footer-links { font-size: 16.5px; }
+    .footer p { font-size: 13.5px; }
+    .rules-intro { font-size: 18px; }
+    .rule-heading { font-size: 19.5px; }
+    .rule-heading b { font-size: 27px; }
+    .rule-content { font-size: 18px; }
+    .bottom-help p { font-size: 18px; }
+    .reward-number { font-size: 16.5px; }
+    .reward-card p { font-size: 16.5px; }
+    .reward-banner p { font-size: 18px; }
+    .reward-banner a { font-size: 18px; }
+    .guide-step>span { font-size: 16.5px; }
+    .guide-step p { font-size: 18px; }
+    .guide-step a { font-size: 18px; }
+    .guide-note p { font-size: 18px; }
+    .news-wide p { font-size: 18px; }
+    .news-wide a { font-size: 18px; }
+    .breadcrumbs { font-size: 16.5px; }
+    .article-page h2 { font-size: 57px; }
+    .article-meta { font-size: 15px; }
+    .article-body { font-size: 21px; }
+    .article-body h4 { font-size: 33px; }
+    .article-bottom { font-size: 18px; }
+    .modal h2 { font-size: 39px; }
+    .modal p { font-size: 19.5px; }
+    .modal-close { font-size: 36px; }
 }
