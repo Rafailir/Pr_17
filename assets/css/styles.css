@@ -789,7 +789,7 @@ h4 {
 
 
 /* Mobile font sizes: 150% */
-@media (max-width: 768px) {
+@media (max-device-width: 768px) {
     body { font-size: 21px; }
     .logo { font-size: 69px; }
     .logo span { font-size: 12px; }
